@@ -1,0 +1,330 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img4{
+    width: 100%;
+    /* display: block; */
+}
+.img5{
+    width: 100%;
+    /* display: block; */
+}
+
+.img4text{
+    position: absolute;
+    z-index: 1;
+    margin-top: 63px;
+    margin-left: 43px;
+}
+.text_y{
+    color: rgba(243, 243, 3, 0.879);
+    font-size: 22px;
+    font-weight: 600;
+}
+.text_w{
+    color: white;
+    font-size: 33px;
+    font-weight: 700;
+}
+.text_ww{
+    color: white;
+    font-size: 19px;
+    font-weight: 200;
+}
+.img5text{
+    position: absolute;
+    z-index: 1;
+    margin-top: 63px;
+    margin-left: 43px;
+}
+.text2{
+    color: white;
+    font-size: 33px;
+    font-weight: 700;
+}
+.text2_y{
+    color: rgba(243, 243, 3, 0.879);
+    font-size: 33px;
+    font-weight: 700;
+}
+.text2_ww{
+    color: white;
+    font-size: 19px;
+    font-weight: 200;
+}
+/* css for cards */
+
+.card_section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.card{
+    border: none;
+}
+.card-text{
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.nvv{
+    position: sticky;
+    top: 0%;
+    z-index: 5;
+}
+.nav-link{
+    font-size: 20px;
+}
+
+.fsec_heading{
+    font-weight: 700;
+    color: #061b4c;
+}
+.img-overlay-list {
+    left: 40px;
+    bottom: 30px;
+    z-index: 1;
+}
+
+.img-overlay-list {
+    left: 0px;
+    bottom: 30px;
+    z-index: 2;
+}
+.position-absolute {
+    position: absolute !important;
+    background: #fff;
+}
+#myid::before{
+    content: " ";
+background-image: url("https://media.istockphoto.com/id/522855935/vector/ok-flat-blue-simple-icon-with-long-shadow.jpg?s=612x612&w=0&k=20&c=n2HlatnBgtfaii6QCi--0Dbkde1wRlU7jJ1oF15cBvo=");
+background-size: cover;
+position: absolute;
+width: 30px;
+height: 30px;
+left: 2px;
+}
+#myid2::before{
+    content: " ";
+background-image: url("https://media.istockphoto.com/id/522855935/vector/ok-flat-blue-simple-icon-with-long-shadow.jpg?s=612x612&w=0&k=20&c=n2HlatnBgtfaii6QCi--0Dbkde1wRlU7jJ1oF15cBvo=");
+background-size: cover;
+position: absolute;
+width: 24px;
+height: 24px;
+/* left: 2px; */
+}
+#myid3::before{
+    content: " ";
+background-image: url("/image/pngwing.com.png");
+background-size: cover;
+position: absolute;
+width: 18px;
+height: 18px;
+/* left: 2px; */
+}
+.footer-top {
+    background: #009cad !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #00878a;
+    border-color: #00878a;
+    -webkit-box-shadow: 0 11px 18px -8px rgba(23, 92, 255, 0.6);
+    box-shadow: 0 11px 18px -8px rgb(0 135 138);
+}
+.bg-blue {
+    --bs-bg-opacity: 1;
+    background-color: #1d9fff;
+}
+.ptb-60 {
+    padding: 60px 0;
+}
+
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.z-10 {
+    z-index: 10;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+/* .sticky-top { */
+        /* position: sticky; */
+        /* top: 0; */
+    /* } */
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.ima {
+    margin-left: 49px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.nav-link i{
+    background: #00878a;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border-top-left-radius: 99px;
+    border-bottom-right-radius: 99px;
+    color: white;
+    padding: 5px;
+    line-height: 19px;
+    border: 2px solid #e9ecef;
+    display: grid;
+    }
+    .text-decoration-none{
+        color: white;
+    }
+    #first_logo{
+        height: 30%;
+        width: 25%;
+        margin-left: 80px;
+}
+.grey_circle {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(106, 137, 133);
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    margin-top: 200px;
+}
+
+    /* .navigation li a.nav-link{
+        margin: 15px;
+    }
+    .navigation li a.nav-link{
+        padding: 20px 25px;
+        font-size: 18px;
+        font-weight: 500;
+        position: relative;
+        
+        } */
+
+/* Media Query */
+@media (min-width:240px) and (max-width:479px) {
+    .img4text{
+        position: absolute;
+        z-index: 1;
+        margin-top: 22px;
+        margin-left:22px;
+    }
+.text_y{
+    color: rgba(243, 243, 3, 0.879);
+    font-size: 16px;
+    font-weight: 400;
+}
+.text_w{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+}
+.text_ww{
+    display: none;
+}
+
+.img5text{
+    position: absolute;
+    z-index: 1;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.text2{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.text2_y{
+    color: rgba(243, 243, 3, 0.879);
+    font-size: 16px;
+    font-weight: 700;
+}
+.text2_ww{
+    display: none;
+}
+.card_section{
+    display: block;
+    margin-left: 33px;
+}
+.card{
+    margin-bottom: 60px;
+}
+.card-title{
+    margin-top: 33px;
+}
+.container-fluid {
+    /* width: 8px; */
+    margin-left:70%;
+}
+#first_logo{
+    height: 40%;
+    width: 55%;
+    margin-left: 80px;
+}
+.nvv {
+    /* position: sticky; */
+    top: 0%;
+    z-index: 5;
+    display: grid;
+    grid-auto-flow: column;
+    margin-right: 47px
+}
+.grey_circle {
+    display: none;
+}
+}  
+
+@media (min-width:768px) and (max-width:991px) {
+    .nvv {
+        /* position: sticky; */
+        top: 0%;
+        z-index: 5;
+        display: grid;
+        grid-auto-flow: column;
+        margin-right: 4px
+    }
+    .card_section {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 91px;
+        margin-left: auto;
+        margin-bottom: 40px;
+        justify-content: space-between;
+    }
+    .card-body {
+        flex: 1 1 auto;
+        /* padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x); */
+        /* color: var(--bs-card-color); */
+        margin-bottom: 80px;
+    }
+    #h5{
+        margin-top: 15px;
+    }
+    .grey_circle {
+        display: none;
+    }
+    }
+    
+    
